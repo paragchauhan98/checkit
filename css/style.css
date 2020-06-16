@@ -479,7 +479,7 @@ some changes made or you can swap this for old till the end
     position: relative;
     height: 250px;
     width: auto;
-    background-size: 350px 250px;
+    background-size: 100% 250px;
     
     
   }
