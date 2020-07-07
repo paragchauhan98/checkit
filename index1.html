@@ -204,12 +204,10 @@ background: green;
 								
 								</li>-->
 								
-									<% if(!currentUser){ %> 
+									
 									<a href="#"><button id="myBtn"class="btn btn-warning">Login</button></a>
-									<% } else{ %>
-										<li><a href="/user/<%= currentUser._id %>" ><strong ><%= currentUser.name %></em></strong></a></li>
-										 <a href="/logout" class="btn btn-warning">Logout</a>
-									   <%	} %>
+									
+									
 									
 							<div id="loginbox" style="max-height: 310px;z-index: 9999;position:fixed;top:10%;right: 10%;display: none;background-color: white;padding: 20px;border-radius: 4px;">
 								
